@@ -16,8 +16,8 @@
 					</v-list-tile>
 				</v-list>
 			</v-navigation-drawer>
-			<v-toolbar color="#cfd8dc"
-					   light
+			<v-toolbar color="#093c71"
+					   dark
 					   fixed
 					   app
 					   scroll-off-screen
@@ -122,15 +122,15 @@
 								 right
 								 temporary
 								 fixed></v-navigation-drawer>
-			<footer></footer>
+			<social-footer></social-footer>
 	</v-app>
 </template>
 
 <script>
 	import HomeDataTable from './HomeDataTable'
 	import FloatingActionButton from './FloatingActionButton'
-    import Sidebar from './Sidebar'
-    import Footer from './Footer'
+	import Sidebar from './Sidebar'
+	import SocialFooter from './SocialFooter'
 
 
 
@@ -138,8 +138,8 @@
 		components: {
 			HomeDataTable,
 			FloatingActionButton,
-            Sidebar,
-            Footer
+			Sidebar,
+			SocialFooter
 		},
 		data: () => ({
 			items: [

@@ -1,10 +1,10 @@
 ﻿<template>
     <div>
-        <v-toolbar dark flat dense color="#9ea7aa">
+        <v-toolbar light flat dense color="#eeeeee">
             <v-toolbar-title id="dataHeader" flat>Account List</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-dialog v-model="dialog" max-width="500px">
-                <v-btn slot="activator" color="#093c71" dark class="mb-2">New Item</v-btn>
+                <v-btn ripple small slot="activator" color="#8e8e8e" dark class="mb-2">New Item</v-btn>
                 <v-card>
                     <v-card-title>
                         <span class="headline">{{ formTitle }}</span>
@@ -31,8 +31,8 @@
 
                     <v-card-actions>
                         <v-spacer></v-spacer>
-                        <v-btn color="blue darken-1" flat @click.native="close">Cancel</v-btn>
-                        <v-btn color="blue darken-1" flat @click.native="save">Save</v-btn>
+                        <v-btn color="#8e8e8e" dark @click.native="close">Cancel</v-btn>
+                        <v-btn color="#8e8e8e" dark @click.native="save">Save</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-dialog>
@@ -171,10 +171,8 @@
 </script>
 
 <style>
-    @import url('https://fonts.googleapis.com/css?family=Arimo');
 
     #dataHeader {
-        font-family: Arimo !important;
-        font-size: 18px;
+        font-size: 16px;
     }
 </style>

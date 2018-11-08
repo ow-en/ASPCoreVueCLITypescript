@@ -44,7 +44,7 @@
                       :transition="transition">
             <v-btn slot="activator"
                    v-model="fab"
-                   color="#ff7043"
+                   color="#8e8e8e"
                    dark
                    fab>
                 <v-icon>account_circle</v-icon>
@@ -119,7 +119,7 @@
     /* This is for documentation purposes and will not be needed in your application */
     #create .v-speed-dial {
         position: fixed;
-        margin-bottom: 40px;
+        margin-bottom: 120px;
     }
 
     #create .v-btn--floating {
