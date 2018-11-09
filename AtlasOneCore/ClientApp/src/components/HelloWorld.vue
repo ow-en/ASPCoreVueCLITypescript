@@ -122,6 +122,7 @@
 								 right
 								 temporary
 								 fixed></v-navigation-drawer>
+            <chat-client></chat-client>
 			<social-footer></social-footer>
 	</v-app>
 </template>
@@ -131,6 +132,7 @@
 	import FloatingActionButton from './FloatingActionButton'
 	import Sidebar from './Sidebar'
 	import SocialFooter from './SocialFooter'
+	import ChatClient from './ChatClient'
 
 
 
@@ -139,7 +141,8 @@
 			HomeDataTable,
 			FloatingActionButton,
 			Sidebar,
-			SocialFooter
+			SocialFooter,
+			ChatClient
 		},
 		data: () => ({
 			items: [
