@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasOneCore", "AtlasOneCore\AtlasOneCore.csproj", "{19FD8F7F-27B7-428C-B9E0-9D4430F18CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtlasOneCore", "AtlasOneCore\AtlasOneCore.csproj", "{19FD8F7F-27B7-428C-B9E0-9D4430F18CC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{914790C8-B5A9-4460-9E03-297E6DE9A40E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{914790C8-B5A9-4460-9E03-297E6DE9A40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "Identity\Identity.csproj", "{A6AEAD95-D236-4A2B-9A1B-EDF2FB50B3D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{0E8444F3-5893-4676-8571-E2430EC3856F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{914790C8-B5A9-4460-9E03-297E6DE9A40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{914790C8-B5A9-4460-9E03-297E6DE9A40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{914790C8-B5A9-4460-9E03-297E6DE9A40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AEAD95-D236-4A2B-9A1B-EDF2FB50B3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AEAD95-D236-4A2B-9A1B-EDF2FB50B3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AEAD95-D236-4A2B-9A1B-EDF2FB50B3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AEAD95-D236-4A2B-9A1B-EDF2FB50B3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8444F3-5893-4676-8571-E2430EC3856F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8444F3-5893-4676-8571-E2430EC3856F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8444F3-5893-4676-8571-E2430EC3856F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8444F3-5893-4676-8571-E2430EC3856F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
