@@ -122,8 +122,7 @@
 								 right
 								 temporary
 								 fixed></v-navigation-drawer>
-            <chat-client></chat-client>
-			<social-footer></social-footer>
+			<chat-client></chat-client>
 	</v-app>
 </template>
 
